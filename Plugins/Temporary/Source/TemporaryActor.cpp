@@ -1,5 +1,7 @@
 ﻿// Fill out your copyright notice in the Description page of Project Settings.
-
+// ATemporaryActor 클래스
+// Temporary 플러그인 안에 있는 액터 클래스
+// BeginPlay에서 Temporary 플러그인 클래스 생성 및 값 출력
 
 #include "TemporaryActor.h"
 #include "Kismet/KismetSystemLibrary.h"

@@ -1,5 +1,8 @@
 ﻿// Fill out your copyright notice in the Description page of Project Settings.
 
+// ATestActor 클래스
+// Test 모듈 안에 있는 액터 클래스
+// BeginPlay에서 Temporary 플러그인 클래스 생성 및 값 출력
 
 #include "TestActor.h"
 #include "Kismet/KismetSystemLibrary.h"

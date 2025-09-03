@@ -53,6 +53,9 @@ AMPCharacter::AMPCharacter()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
 
+// 게임 시작 시 Test 모듈, Temporary 플러그인의 액터 소환.
+// 소환된 액터들은 BeginPlay() 실행
+// UCharacterData 클래스의 값들 출력
 void AMPCharacter::BeginPlay()
 {
 	Super::BeginPlay();
