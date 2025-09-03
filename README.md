@@ -72,13 +72,17 @@ void AMPCharacter::BeginPlay()
 }
 ```
 
-헤더 추가:
+## 헤더 추가
 
 #include "TemporaryActor.h"
 
-5. 생성 확인
+## 생성 확인
 
-Plugins 폴더에서 Temporary 플러그인 확인 가능
-C++ 클래스는 Content Browser에서 액터 생성 후 사용 가능
-게임 실행 시 AMPCharacter가 TestActor와 TemporaryActor를 Spawn
+- Plugins 폴더에서 Temporary 플러그인 확인 가능
+  <img width="1920" height="1048" alt="7  플러그인" src="https://github.com/user-attachments/assets/73f71c53-6066-4145-97d4-e2097006aec9" />
+
+- C++ 클래스는 Content Browser에서 액터 생성 후 사용 가능
+  
+- 게임 실행 시 AMPCharacter가 TestActor와 TemporaryActor를 Spawn
+<img width="1920" height="1048" alt="9  완료" src="https://github.com/user-attachments/assets/79e73d67-bd6c-4a26-8891-7c27a2612e14" />
 
